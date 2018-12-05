@@ -31,6 +31,13 @@ Accuracy - 95.14 %
 False Positive Rate - 0.094
 
 The Maverick
+The Maverick is a convolution neural network built and trained from scratch to classify the images. The network essentially learns the curves, water droplet formations, chips and calssifies accordingly.
+The architecture of model is as follows:
+Conv --> Max Pool --> Conv --> Max Pool --> FC1 --> FC2
+Results:
+Accuracy - 98.05%
+False Positive Rate - 0.039
+
 
 
 
